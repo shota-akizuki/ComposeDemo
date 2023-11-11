@@ -46,6 +46,7 @@ kotlin {
             implementation(compose.material)
             @OptIn(ExperimentalComposeLibrary::class)
             implementation(compose.components.resources)
+            implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.1")
         }
     }
 }
